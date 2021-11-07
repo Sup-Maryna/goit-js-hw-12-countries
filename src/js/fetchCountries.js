@@ -1,5 +1,5 @@
 export default function fetchCountries(inputValue) {
-    const url = `https://restcountries.eu/rest/v2/name/${inputValue}`; 
+    const url = `https://restcountries.com/v2/name/${inputValue}`; 
 
     return fetch(url)
       .then(response => {
